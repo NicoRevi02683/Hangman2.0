@@ -503,8 +503,9 @@ class TestAhorcado(unittest.TestCase):
         attempts = 6
         wrong_guesses = ['x', 'y', 'z']
         result = remaining_attempts(attempts, wrong_guesses)
-        self.assertEqual(result, 3)  # 6 intentos - 3 intentos incorrectos
+        self.assertEqual(result, 3)  
 
 
 if __name__ == '__main__':
     unittest.main()
+
